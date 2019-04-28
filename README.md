@@ -1,6 +1,6 @@
 # JS-fundamentials-Spring-2019
 
-[EPAM JS fundamentals](https://aleksandrgorodetskii.github.io/JS-fundamentials-Spring-2019/)  
+[EPAM JS fundamentals](https://aleksandrgorodetskii.github.io/JS-1/Aleksandr_Gorodetskii)  
 
 To install dependencies, execute in project folder:
 
