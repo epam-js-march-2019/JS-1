@@ -239,6 +239,10 @@ var bound = addPropToNumber.myBind({ prop: 9 });
 bound(1) // 10
  */
 
-Function.prototype.myBind = function () {
-    // your code here
+Function.prototype.myBind = function (context) {
+    let _context = context;
+    let _originalFunc = this;
+    return function (...args) {
+        return _originalFunc.apply(_context, args);
+    }
 };
